@@ -10,6 +10,9 @@ public class Main {
         String[] sides = convertToStringArray(gameData.sides);
 
         LetterBoxedSolver solver = new LetterBoxedSolver(sides, words);
+        String[] solution = solver.solution();
+
+        System.out.println(String.join(", ", solution));
     }
 
     private static String[] convertToStringArray(JSONArray arr) {
