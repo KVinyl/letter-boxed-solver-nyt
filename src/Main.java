@@ -9,9 +9,15 @@ public class Main {
         String[] words = convertToStringArray(gameData.dictionary);
         String[] sides = convertToStringArray(gameData.sides);
 
+        for (int i = 0; i < sides.length; i++ ) {
+            int n = i + 1;
+            System.out.println("side " + n + ": " + sides[i]);
+        }
+
         LetterBoxedSolver solver = new LetterBoxedSolver(sides, words);
         String[] solution = solver.solution();
 
+        System.out.println();
         System.out.println(String.join(", ", solution));
     }
 
