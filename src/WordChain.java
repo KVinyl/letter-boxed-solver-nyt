@@ -47,4 +47,12 @@ public class WordChain {
     public String[] toArray() {
         return wordChainList.toArray(new String[wordChainList.size()]);
     }
+
+    public String toString() {
+        return String.join(", ", wordChainList);
+    }
+
+    public int length() {
+        return wordChainList.size();
+    }
 }
