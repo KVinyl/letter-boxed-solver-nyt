@@ -50,7 +50,6 @@ public class LetterBoxedSolver {
 
     private Queue<WordChain> initializeWordChainQueue() {
         List<WordChain> wordChainList = new ArrayList<>();
-        
         for (String word: words) {
             wordChainList.add(new WordChain(word));
         }

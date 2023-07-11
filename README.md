@@ -17,4 +17,4 @@ Create words using letters round the square
 https://www.nytimes.com/puzzles/letter-boxed
 
 
-LetterBoxedSolverNYT parses NYT Letter Boxed metadata to extract valid words in today's Letter Boxed and finds a solution to a Letter Boxed game of shortest possible length. Then it automates opening the browser, going to the website, and playing the game using Selenium. Requires Webdriver for Chrome in order for automation to work.
+LetterBoxedSolverNYT parses NYT Letter Boxed metadata to extract valid words in today's Letter Boxed and finds a solution to a Letter Boxed game of shortest possible length. Then it automates opening the browser, going to the website, and playing the game using Selenium. Google Chrome is required in order for automation to work.
