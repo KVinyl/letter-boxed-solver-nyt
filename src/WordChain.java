@@ -40,6 +40,7 @@ public class WordChain {
             letters.add(letter);
         }
     }
+
     public boolean isSolved() {
         return letters.size() == SOLVED_LETTERS_COUNT;
     }

@@ -82,6 +82,7 @@ public class Main {
                 body.sendKeys(letter);
                 delay(300);
             }
+
             delay(300);
             body.sendKeys(Keys.ENTER);
             delay(500 * word.length());

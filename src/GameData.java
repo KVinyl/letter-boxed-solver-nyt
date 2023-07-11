@@ -20,6 +20,7 @@ public class GameData {
             dictionary = gameData.getJSONArray("dictionary");
         }
     }
+    
     private JSONObject extractGameData() {
         try {
             Document doc = Jsoup.connect(url).get();
